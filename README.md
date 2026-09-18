@@ -68,6 +68,11 @@ Follow these steps to set up and run the project locally:
 
 ---
 
+
+## Results
+<img width="1917" height="1140" alt="Screenshot 2026-09-18 211519" src="https://github.com/user-attachments/assets/cf473c8c-21a1-4680-81d8-d98eb73108f5" />
+
+
 ## Testing Instructions
 
 1. Once the Streamlit interface opens in your web browser, use the file uploader widget.
