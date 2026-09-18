@@ -1,28 +1,30 @@
-# Airefiy: Academic Pre-Print & Research Claim Credibility Analyzer
-
 ## Overview
-**Airefiy** is an advanced Natural Language Processing (NLP) and supervised machine learning application designed to evaluate academic research abstracts, pre-prints, and project reports. The system processes unstructured document text, strips tracking boilerplate, extracts custom linguistic and empirical markers, and computes an objective **Credibility Index** to assist students and researchers in auditing literature reliability.
+Airefiy uses advanced Natural Language Processing and supervised machine learning to check the credibility of academic abstracts, pre-prints, and research project reports. It reads unstructured text from your documents, strips out generic boilerplates, pulls out custom linguistic and empirical markers, and then calculates a Credibility Index. This gives students and researchers a straightforward way to judge whether a piece of literature is reliable.
+
 
 This project was developed as part of the coursework evaluation for **CSA2001: Fundamentals in AI and ML**.
 
 ---
 
 ## Key Features
-* **Multi-Format Document Ingestion:** Automatically extracts raw text from uploaded PDF research papers and Word (`.docx`) documents.
-* **Linguistic Heuristic Analyzer:** Scans text against custom lexical dictionaries to quantify empirical methodologies versus sensationalized or exaggerated claims.
-* **Supervised Classification Engine:** Utilizes a trained `scikit-learn` Logistic Regression pipeline combined with TF-IDF vectorization to classify academic rigor.
-* **Interactive Analytics Dashboard:** Built with Streamlit to display real-time metrics, structural signals, and JSON payload exports.
+Multi-Format Document Ingestion: Upload a PDF or Word (.docx) research paper—Airefiy automatically grabs the raw text for you.
+
+Linguistic Heuristic Analyzer: Scans your document against custom dictionaries to pick up on the difference between solid research methods and over-the-top or exaggerated claims.
+
+Supervised Classification Engine: Uses a trained scikit-learn Logistic Regression pipeline with TF-IDF vectorization to rate academic rigor.
+
+Interactive Analytics Dashboard: Built in Streamlit, this dashboard shows real-time metrics, signals in the document’s structure, and lets you export results in JSON.
 
 ---
 
 ## Technologies & Tools Used
-* **Python 3.10+** (Core programming language)
-* **Streamlit** (Interactive web application framework)
-* **Scikit-Learn** (Supervised machine learning classification & TF-IDF vectorization)
-* **PyPDF & Python-Docx** (Document text extraction libraries)
-* **Joblib & NumPy** (Model serialization and numerical arrays)
-* **Git & GitHub** (Version control and project submission)
-
+Python 3.10+ (core programming language)
+Streamlit (for the interactive web UI)
+Scikit-Learn (for machine learning and TF-IDF)
+PyPDF & Python-Docx (to pull text from documents)
+Joblib & NumPy (for model saving and numerical ops)
+Git & GitHub (version control, project hand-in)
+Project Structure
 ---
 
 ## System Architecture & Folder Structure
